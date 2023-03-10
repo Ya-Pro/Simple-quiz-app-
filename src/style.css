@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Space+Grotesk:300,regular,500,600,700);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Space Grotesk',sans serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quiz_container {
+    width: 100%;
+    max-width: fit-content;
+    display: grid;
+    gap: 1rem;
+    background-color: #eeeeee;
+    border-radius: .5rem;
+    box-shadow: 0 0 .2rem #d4d4d4 inset,
+                        0 0 .2rem white inset;
+}
+.quiz_header {
+    text-align: center;
+    padding: 1rem ;
+}
+ul li {
+    margin: .5rem .5rem;
+}
+ul li input {
+    accent-color:rgb(0,255,229) ;    
+    cursor: pointer;
+}
+
+ul li label {
+    cursor: pointer;
+    font-size: .8rem;
+}
+button {
+    background-color: rgb(0, 255, 229);
+    padding: .3rem 1rem;
+    border-radius: .4rem;
+    cursor: pointer;
+    color:white ;
+    transition: all .3s ease-in-out;
+}
+button:hover {
+    background-color: rgb(0, 187, 255);
+}
